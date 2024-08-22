@@ -17,7 +17,7 @@
 
 #### Check item
 
-```http
+```
   POST /v1/item/check
 ```
 
@@ -29,7 +29,7 @@
 
 #### Delete item
 
-```http
+```
   POST /v1/item/delete
 ```
 
@@ -41,7 +41,7 @@
 
 #### Edit item
 
-```http
+```
   POST /v1/item/edit
 ```
 
