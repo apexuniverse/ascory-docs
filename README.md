@@ -58,3 +58,30 @@ This documentation will help in mastering the basic API for working with Ascory
 | `name` | `string` | **Optional**. Name of item |
 | `description` | `string` | **Optional**. Description of item |
 | `amount` | `float` | **Optional**. Price of item |
+
+#### All items
+
+```
+  POST /v1/item/all
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `shop` | `integer` | **Required**. Your shop ID |
+| `hash` | `string` | **Required**. Your shop hash |
+
+#### Create invoice
+
+```
+  POST /v1/invoice/create
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `shop` | `integer` | **Required**. Your shop ID |
+| `hash` | `string` | **Required**. Your shop hash |
+| `item` | `integer` | **Required**. ID of item |
+| `comment` | `string` | **Optional**. Comment of invoice |
+| `backURL` | `string` | **Optional**. Back URL of invoice |
+| `successURL` | `string` | **Optional**. Success URL of invoice |
+| `failURL` | `string` | **Optional**. Fail URL of invoice |
