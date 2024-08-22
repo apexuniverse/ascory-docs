@@ -54,6 +54,7 @@ This documentation will help in mastering the basic API for working with Ascory
 | :-------- | :------- | :------------------------- |
 | `shop` | `integer` | **Required**. Your shop ID |
 | `hash` | `string` | **Required**. Your shop hash |
+| `id` | `amount` | **Required**. ID of item |
 | `name` | `string` | **Optional**. Name of item |
 | `description` | `string` | **Optional**. Description of item |
 | `amount` | `float` | **Optional**. Price of item |
