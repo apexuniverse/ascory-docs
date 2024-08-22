@@ -3,7 +3,7 @@
 
 #### Create item
 
-```http
+```
   POST /v1/item/create
 ```
 
