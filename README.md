@@ -149,3 +149,9 @@ This documentation will help in mastering the basic API for working with Ascory
 ```
   POST /v1/commission/all
 ```
+
+#### All currencies
+
+```
+  POST /v1/currency/all
+```
