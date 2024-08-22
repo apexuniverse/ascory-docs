@@ -117,5 +117,18 @@ This documentation will help in mastering the basic API for working with Ascory
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `shop` | `integer` | **Required**. ID of invoice |
+| `id` | `integer` | **Required**. ID of invoice |
 | `hash` | `string` | **Required**. Hash of invoice |
+
+#### Payment confirm
+
+```
+  POST /v1/payment/confirm
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `id` | `integer` | **Required**. ID of invoice |
+| `hash` | `string` | **Required**. Hash of invoice |
+| `email` | `string` | **Required**. Email of payment |
+| `method` | `string` | **Required**. Method of payment |
