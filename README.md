@@ -101,10 +101,21 @@ This documentation will help in mastering the basic API for working with Ascory
 #### All invoice
 
 ```
-  POST /v1/invoice/check
+  POST /v1/invoice/all
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `shop` | `integer` | **Required**. Your shop ID |
 | `hash` | `string` | **Required**. Your shop hash |
+
+#### Payment detail
+
+```
+  POST /v1/payment/detail
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `shop` | `integer` | **Required**. ID of invoice |
+| `hash` | `string` | **Required**. Hash of invoice |
