@@ -140,6 +140,7 @@ This documentation will help in mastering the basic API for working with Ascory
 ```
 
 | Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
 | `shop` | `integer` | **Required**. Your shop ID |
 | `hash` | `string` | **Required**. Your shop hash |
 
