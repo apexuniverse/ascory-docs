@@ -132,3 +132,19 @@ This documentation will help in mastering the basic API for working with Ascory
 | `hash` | `string` | **Required**. Hash of invoice |
 | `email` | `string` | **Required**. Email of payment |
 | `method` | `string` | **Required**. Method of payment |
+
+#### Shop balance
+
+```
+  POST /v1/shop/balance
+```
+
+| Parameter | Type     | Description                |
+| `shop` | `integer` | **Required**. Your shop ID |
+| `hash` | `string` | **Required**. Your shop hash |
+
+#### All commissions
+
+```
+  POST /v1/commission/all
+```
