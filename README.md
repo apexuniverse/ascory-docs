@@ -85,3 +85,26 @@ This documentation will help in mastering the basic API for working with Ascory
 | `backURL` | `string` | **Optional**. Back URL of invoice |
 | `successURL` | `string` | **Optional**. Success URL of invoice |
 | `failURL` | `string` | **Optional**. Fail URL of invoice |
+
+#### Check invoice
+
+```
+  POST /v1/invoice/check
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `shop` | `integer` | **Required**. Your shop ID |
+| `hash` | `string` | **Required**. Your shop hash |
+| `id` | `amount` | **Required**. ID of invoice |
+
+#### All invoice
+
+```
+  POST /v1/invoice/check
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `shop` | `integer` | **Required**. Your shop ID |
+| `hash` | `string` | **Required**. Your shop hash |
